@@ -1,7 +1,7 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 import fitz as PyMuPDF
 import pdfplumber
 from pptx import Presentation
