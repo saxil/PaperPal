@@ -1,6 +1,6 @@
 import os
 import hashlib
-from langchain.vectorstores import Chroma, FAISS
+from langchain_community.vectorstores import Chroma, FAISS
 from utils.llm_factory import get_embedding_function
 
 def create_vectorstore(chunks, embedding_model_name, vectorstore_type="chroma", cache_dir="cache"):
